@@ -38,7 +38,6 @@ abstract class FlipChartObject {
         this.fillColor = fillColor;
     }
 
-
     /**
      * Draws this flip chart object to the given flip chart at it's coordinates.
      *
