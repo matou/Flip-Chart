@@ -25,10 +25,14 @@ class Whiteboard extends PApplet {
 
         // default color white
         background(255);
+
+        noLoop();
     }
 
     @Override
     public void draw() {
+        // for WhiteboardObject in currentSlide
+    
     }
 
 }
