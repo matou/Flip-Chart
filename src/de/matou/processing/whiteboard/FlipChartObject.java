@@ -1,5 +1,11 @@
 package de.matou.processing.flipchart;
 
+/**
+ * A flip chart object is any object that can be drawn on a sheet of a flip
+ * chart.
+ *
+ * @author Matthias Matousek
+ */
 abstract class FlipChartObject {
 
     // coordinates
