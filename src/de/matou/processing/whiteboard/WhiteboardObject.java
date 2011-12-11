@@ -34,8 +34,7 @@ abstract class WhiteboardObject {
 
 
     /**
-     * Draws this whiteboard object to the given whiteboard at it's coordinates
-     * plus the given offset.
+     * Draws this whiteboard object to the given whiteboard at it's coordinates.
      *
      * @param board the whiteboard to draw to
      */
