@@ -35,5 +35,13 @@ class FlipChart extends PApplet {
     
     }
 
+    /**
+     * The given sheet is to be displayed on the flip chart.
+     * @param sheet the sheet to display
+     */
+    public void putSheet(FlipChartSheet sheet) {
+        // TODO implement
+    }
+
 }
 
