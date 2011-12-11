@@ -1,6 +1,6 @@
-package de.matou.processing.whiteboard;
+package de.matou.processing.flipchart;
 
-public class Text extends WhiteboardObject {
+public class Text extends FlipChartObject{
 
     protected String text = "";
 
@@ -10,7 +10,7 @@ public class Text extends WhiteboardObject {
     }
 
     @Override
-    void draw(Whiteboard board) {
+    void draw(FlipChart board) {
         super.draw(board);
 
         board.text(text, posX, posY);

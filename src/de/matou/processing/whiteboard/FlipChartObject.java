@@ -1,6 +1,6 @@
-package de.matou.processing.whiteboard;
+package de.matou.processing.flipchart;
 
-abstract class WhiteboardObject {
+abstract class FlipChartObject {
 
     // coordinates
     protected int posX = 0;
@@ -16,9 +16,9 @@ abstract class WhiteboardObject {
     protected int width = 0;
     protected int height = 0;
 
-    WhiteboardObject() {}
+    FlipChartObject() {}
     
-    WhiteboardObject(int x, int y,
+    FlipChartObject(int x, int y,
             int width, int height,
             boolean stroke, int strokeColor,
             boolean fill, int fillColor) {
@@ -34,11 +34,11 @@ abstract class WhiteboardObject {
 
 
     /**
-     * Draws this whiteboard object to the given whiteboard at it's coordinates.
+     * Draws this flip chart object to the given flip chart at it's coordinates.
      *
-     * @param board the whiteboard to draw to
+     * @param board the flip chart to draw to
      */
-    void draw(Whiteboard board) {
+    void draw(FlipChart board) {
        
         // does it have a stroke? if yes -> set the color 
         if (!stroke) board.noStroke();

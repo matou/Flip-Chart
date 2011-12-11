@@ -1,17 +1,17 @@
-package de.matou.processing.whiteboard;
+package de.matou.processing.flipchart;
 
 import processing.core.*;
 
-class Whiteboard extends PApplet {
+class FlipChart extends PApplet {
 
     /** The size of the applet. */
     private int[] size = {800, 600};
 
-    Whiteboard() {
+    FlipChart() {
         // don't need to initialize anything here
     }
 
-    Whiteboard(int xSize, int ySize) {
+    FlipChart(int xSize, int ySize) {
         this.size[0] = xSize;
         this.size[1] = ySize;
     }
@@ -31,7 +31,7 @@ class Whiteboard extends PApplet {
 
     @Override
     public void draw() {
-        // for WhiteboardObject in currentSlide
+        // for FlipChartObject in currentSlide
     
     }
 

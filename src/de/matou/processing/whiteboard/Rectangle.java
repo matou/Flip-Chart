@@ -1,6 +1,6 @@
-package de.matou.processing.whiteboard;
+package de.matou.processing.flipchart;
 
-public class Rectangle extends WhiteboardObject {
+public class Rectangle extends FlipChartObject {
 
     /**
      * Constructs a filled rectangle with the given parameters.
@@ -18,7 +18,7 @@ public class Rectangle extends WhiteboardObject {
     }
 
     @Override
-    void draw(Whiteboard board) {
+    void draw(FlipChart board) {
         super.draw(board);
 
         board.rect(posX, posY, this.width, this.height);

@@ -1,4 +1,4 @@
-package de.matou.processing.whiteboard;
+package de.matou.processing.flipchart;
 
 import java.applet.Applet;
 
@@ -8,14 +8,14 @@ import java.awt.event.*;
 public class Main extends Frame {
 
     public Main() {
-        super("Whiteboard");
+        super("flip chart");
         setSize(800,600);
 
         setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
 
-        Applet whiteboard = new Whiteboard();
-        whiteboard.init();
-        add(whiteboard);
+        Applet flipchart = new FlipChart();
+        flipchart.init();
+        add(flipchart);
 
         setResizable(false);
 
