@@ -1,4 +1,4 @@
-<project name="whiteboard" default="build" basedir=".">
+<project name="flip chart" default="jar" basedir=".">
 
     <path id="class.path">
         <fileset dir="lib">
@@ -18,6 +18,13 @@
 
     <target name="clean">
         <delete dir="build"/>
+    </target>
+
+    <target name="jar" depends="build">
+        <jar
+            destfile="build/flipchart.jar"
+            basedir="build/" >
+        </jar>
     </target>
 
 </project>
