@@ -6,7 +6,7 @@ public class Rectangle extends FlipChartObject {
      * Constructs a filled rectangle with the given parameters.
      */
     public Rectangle(int x, int y, int width, int height, int fillColor) {
-        this(x,y,width,height,false,0,true,fillColor);
+        this(x,y,width,height,true,fillColor,true,fillColor);
     }
 
     public Rectangle(int x, int y, 

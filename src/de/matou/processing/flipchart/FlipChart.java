@@ -20,7 +20,9 @@ class FlipChart extends PApplet {
 
     @Override
     public void setup() {
-        size(size[0],size[1],P3D);
+        // TODO this fucks up text
+        //size(size[0],size[1],P3D);
+        size(size[0],size[1]);
 
         //smooth();
 

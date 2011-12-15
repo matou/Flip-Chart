@@ -17,13 +17,15 @@ public class ExamplePresentation extends FlipChartPresentation {
 
         current = new FlipChartSheet();
         current.addObject(new Text("hello", 50, 50, 0));
+        current.addObject(new Rectangle(100, 100, 50, 50, 120));
         hasNext = true;
         stateChanged();
+
+        System.out.println("pausing");
 
         try {Thread.sleep(3000); } catch (Exception e) {}
 
         current.addObject(new Text("world", 50, 70, 0));
-        current.addObject(new Rectangle(100, 100, 50, 50, 120));
         hasNext = true;
         stateChanged();
 
