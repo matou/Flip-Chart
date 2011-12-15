@@ -7,6 +7,8 @@ are basically unlimited in it's size. Objects like text, rectangles, circles,
 etc. can be drawn upon the sheets. The camera view can be moved freely to any
 point of a sheet. 
 
+Note: Lots of functions aren't implemented, yet.
+
 License
 -------
 Copyright (c) 2011 Matthias Matousek <m@tou.io>
