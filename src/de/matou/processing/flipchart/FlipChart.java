@@ -22,6 +22,8 @@ class FlipChart extends PApplet {
     public void setup() {
         size(size[0],size[1],P3D);
 
+        //smooth();
+
 
         // default color white
         background(255);
@@ -33,7 +35,7 @@ class FlipChart extends PApplet {
         if (currentSheet == null) return;
 
         background(currentSheet.getColor());
-        
+
         for (FlipChartObject obj : currentSheet.getObjects()) {
             obj.draw(this);
         }

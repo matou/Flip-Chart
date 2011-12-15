@@ -16,6 +16,8 @@ public class FlipChartSheet {
 
     private int color = 255;
 
+    public FlipChartSheet() {}
+
     public FlipChartSheet(int color) {
         this.color = color;
     }
